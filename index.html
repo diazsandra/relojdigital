@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Reloj Digital</title>
+	  <link rel="stylesheet" href="css/main.css">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	</head>
+	<body>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-8">
+					<center>
+						<canvas id="canvas" width="600" height="600"></canvas>	
+					</center>
+				</div>
+			
+				<div class="col-xs-12 col-md-4">
+						<h2 id="horaMexico">México 10:35</h2>
+						<h2 id="horaPeru">Perú 11:35</h2>
+						<h2 id="horaChicago">Chicago 12:35</h2>
+						<h2 id="horaSantiago">Santiago 12:35</h2>
+						<h2 id="horaParis">París 12:35</h2>
+
+						<label class="checkbox"><input class="checkbox" type="checkbox" value="0">México</label>
+						<label class="checkbox"><input class="checkbox" type="checkbox" value="1">Perú</label>
+						<label class="checkbox"><input class="checkbox" type="checkbox" value="2">Chicago</label>
+						<label class="checkbox"><input class="checkbox" type="checkbox" value="3">Santiago</label>
+						<label class="checkbox"><input class="checkbox" type="checkbox" value="4">París</label>					
+				</div>				
+			</div>	
+		</div>
+		
+
+		<script src="https://code.jquery.com/jquery-2.2.2.js"></script>
+		<script type="text/javascript" src="js/moment.js"></script>
+		<script type="text/javascript" src="js/moment-timezone.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
